@@ -35,7 +35,7 @@ return (
         </ul>
       </nav> */}
 
-        <image
+        
     </header>
   );
 };
