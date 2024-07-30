@@ -6,15 +6,15 @@ export default function Home() {
   const cardsData = [
     {
       title: 'AGENDAMENTO',
-      image: '/ifpiLogo.png',
+      image: '/agendamento.png',
     },
     {
       title: 'CONSULTA',
-      image: '/ifpiLogo.png',
+      image: '/Consultas.png',
     },
     {
       title: 'SOBRE',
-      image: '/ifpiLogo.png',
+      image: '/Sobre.png',
     },
   ];
 
