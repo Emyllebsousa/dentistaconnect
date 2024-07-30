@@ -1,5 +1,16 @@
-/* page.module.css */
-.title {
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+}
 
-  }
-  
+.footer {
+  background-color: #1a8810;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
