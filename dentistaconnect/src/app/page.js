@@ -1,6 +1,7 @@
 import Header from "@/Header/Header";
 import styles from "@/Styles/page.module.css";
 import Card from "@/Componentes/Card";
+import Link from "next/link";
 
 export default function Home() {
   const cardsData = [
@@ -15,6 +16,7 @@ export default function Home() {
     {
       title: 'SOBRE',
       image: '/Sobre.png',
+      link: '/page.module.js'
     },
   ];
 
@@ -26,8 +28,8 @@ export default function Home() {
           <Card
             key={index}
             title={card.title}
-            description={card.description}
             image={card.image}
+            link={card.link}
           />
         ))}
       </div>
