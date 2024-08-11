@@ -1,14 +1,16 @@
 
-![DENTIST CONNECT](https://github.com/user-attachments/assets/6747f84a-1c8b-4f06-90fb-fdfbeb1b9782)
+![logo ](https://github.com/user-attachments/assets/988175db-d824-4e86-89e4-79408ff11406)
 
-# :hammer: Funcionalidades do projeto
+# :hammer: Funcionalidades do projeto!
 
 - `Gerenciamento de Agendamentos`:  Usuários podem facilmente cancelar ou reagendar suas consultas diretamente na plataforma , além de ums interface clara e organizada que permite aos usuários ver todas as consultas já realizadas e as próximas consultas agendadas.
 - `Visualização de Horários Disponíveis`: Interface intuitiva que mostra todos os horários disponíveis para agendamentos, com opções de filtragem por tipo de procedimento e dentista.
 - `Notificações e Lembretes`: Notificações e Lembretes: Sistema envia notificações automáticas confirmando o agendamento, bem como lembretes próximos à data da consulta.
 - `Painel Administrativo para Dentistas`: Dentistas têm acesso a um painel onde podem ver todas as consultas agendadas, com detalhes sobre os pacientes e procedimentos.
+# 📑 Jornada do usuário 
+![aislan](https://github.com/user-attachments/assets/0ef35908-33a0-4b11-a7c4-33a6e06444b8)
 
- # :construction: Status do Projeto
+# :construction: Status do Projeto
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 # :computer: Tecnologias utilizadas
