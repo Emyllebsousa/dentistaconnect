@@ -18,6 +18,8 @@
 - `Html` 
 - `Css`
 - `JavaScript`
+- `Miro`
+
  # :technologist: Desenvolvedores
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/146274561?v=4" width=115><br><sub>Emylle Beatriz</sub>](https://github.com/Emyllebsousa) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127801531?v=4" width=115><br><sub>Leticia Barros</sub>](https://github.com/leticiabarros23) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137800495?v=4" width=115><br><sub>João Fernandes</sub>](https://github.com/billiezinha) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137807145?v=4" width=115><br><sub>Talita Viana</sub>](https://github.com/Vianaat) |
