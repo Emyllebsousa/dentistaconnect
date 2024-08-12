@@ -8,17 +8,20 @@ export default function Home() {
     {
       title: 'AGENDAMENTO',
       image: '/agendamento.png',
+      link: '/agendamento',
     },
     {
       title: 'CONSULTA',
       image: '/Consultas.png',
+      link: '/consulta',
     },
     {
       title: 'SOBRE',
       image: '/Sobre.png',
-      link: '/page.module.js'
+      link: '/sobre',
     },
   ];
+  
 
   return (
     <>

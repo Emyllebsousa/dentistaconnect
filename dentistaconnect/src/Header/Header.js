@@ -14,10 +14,6 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.titulo}>
-        <h1>DENTISTA</h1>
-        <div className={styles.textotitulo}>
-          <h1>CONNECT</h1>
-        </div>
       </div>
       {/* <nav className={styles.nav}>
         <button
@@ -35,9 +31,9 @@ const Header = () => {
         </ul>
       </nav> */}
 <Image
-      src="/ifpiLogo.png"
-      width={120}
-      height={100}
+      src="/dentista_logo.png"
+      width={180}
+      height={180}
       alt="Picture of the author"
     />
     </header>
