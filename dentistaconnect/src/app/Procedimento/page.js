@@ -9,7 +9,7 @@ export default function Sobre() {
             <div className={styles.tela}>
                 <form action="/search" method="GET" className={styles["search-bar"]}>
                     <button type="submit">
-                        <img src="/path_to_your_icon/lupa-icon.png" alt="Buscar" />
+                        <img src="/lupa.png" alt="Buscar" />
                     </button>
                     <input type="search" name="query" placeholder="Pesquisar..." aria-label="Pesquisar" required />
                 </form>
@@ -24,14 +24,14 @@ export default function Sobre() {
 
                     <div className={styles.topico}>
                         <h2>PROCEDIMENTO</h2>
-                        <Link href="/outra-pagina" className={styles.button}>
+                        <Link href="/" className={styles.button}>
                             AGENDAR
                         </Link>
                     </div>
 
                     <div className={styles.topico}>
                         <h2>PROCEDIMENTO</h2>
-                        <Link href="/outra-pagina" className={styles.button}>
+                        <Link href="/" className={styles.button}>
                             AGENDAR
                         </Link>
                     </div>

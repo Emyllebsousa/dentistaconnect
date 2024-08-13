@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    box-sizing: border-box; /* Adicione esta linha para garantir que as larguras sejam calculadas corretamente */
 }
 
 .topico {
@@ -30,7 +31,7 @@
     background-color: #050A30;
     color: white;
     border-radius: 10px;
-    height: 100px;
+    height: auto; /* Altere de 100px para auto */
     width: 100%;
     max-width: 1000px;
     text-align: initial;
@@ -38,7 +39,10 @@
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
+    justify-items: center;
+    justify-content: space-between; /* Adicione esta linha para garantir o espaçamento correto entre os elementos */
 }
+
 
 .button {
     font-size: 16px;
