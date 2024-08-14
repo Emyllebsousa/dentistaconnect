@@ -1,14 +1,16 @@
-"use client";
+import styles from '../Styles/Card.module.css';
+import Link from 'next/link';
 
-import styles from '@/Styles/Card.module.css';
-
-const Card = ({ title, description, image }) => {
+const Card = ({ title, image, link }) => {
   return (
-    <div className={styles.card}>
-      <img src={image} alt={title} className={styles.cardImage} />
-      <div className={styles.cardContent}>
-        <h2 className={styles.cardTitle}>{title}</h2>
-      </div>
+    <div>
+    <><div className={styles.card}>
+      <Link href={link}>
+        <div className={styles.imageContainer}>
+          <img src={image} alt={title} className={styles.image} />
+        </div>
+      </Link>
+    </div><div className={styles.title}>{title}</div></>
     </div>
   );
 };
