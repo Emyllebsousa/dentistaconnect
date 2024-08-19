@@ -18,8 +18,9 @@
 - `Html` 
 - `Css`
 - `JavaScript`
-- `Miro`
-
+- `Figma`
+- `Supabase`
+  
  # :technologist: Desenvolvedores
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/146274561?v=4" width=115><br><sub>Emylle Beatriz</sub>](https://github.com/Emyllebsousa) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127801531?v=4" width=115><br><sub>Leticia Barros</sub>](https://github.com/leticiabarros23) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137800495?v=4" width=115><br><sub>João Fernandes</sub>](https://github.com/billiezinha) | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/137807145?v=4" width=115><br><sub>Talita Viana</sub>](https://github.com/Vianaat) |
@@ -27,4 +28,4 @@
 
 
 # 🖥️: Prototipo
-https://miro.com/welcomeonboard/bjhFZVJIaTZSZk9ERjFJNXloTkFYbmM0TXpYMzJSdk13bU9OZVRLV1JwbU9XQ3VxU3FMQkhiQ1dwZWFYbDFtZXwzNDU4NzY0NTczMzgwNjA4ODQ3fDI=?share_link_id=743819825858
+https://www.figma.com/design/7Q1WzesE0OE2xmDPGGGLXq/Untitled?node-id=0-1&t=meJZRUU73x6w4YEp-0
