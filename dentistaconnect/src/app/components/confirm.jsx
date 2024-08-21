@@ -1,6 +1,6 @@
 export default function Confirm() {
     return (
-      <h1>hello hor</h1>
+      <h1>olá paciente</h1>
     );
   }
   

@@ -1,5 +1,4 @@
-// src/app/components/Login.js
-"use client"; // Adicione essa linha no início do arquivo
+"use client";
 
 import React, { useState } from 'react';
 import styles from "@/app/styles/login.module.css";
@@ -10,7 +9,6 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode adicionar a lógica para enviar os dados para a API ou realizar autenticação
     console.log('Email:', email);
     console.log('Password:', password);
   };
