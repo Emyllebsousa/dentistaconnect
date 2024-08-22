@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useState } from 'react';
 import styles from "@/app/styles/login.module.css";
+import { useState } from 'react';
+import Link from 'next/link';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -41,6 +42,13 @@ const Login = () => {
             required
           />
         </div>
+
+        <div className={styles.cadastrar}>
+          <h3>Já tem uma conta? <strong><Link href="/cadastro">Cadastre-se</Link></strong></h3>
+          {/* <Link href="/cadastro">Já tem uma conta?<strong>Se cadastre</strong></Link> */}
+
+        </div>
+
         <button type="submit" className={styles.loginButton}>Login</button>
       </form>
     </div>
