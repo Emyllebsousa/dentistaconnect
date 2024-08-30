@@ -1,4 +1,3 @@
-import Card from "@/app/components/Card";
 import styles from "@/app/styles/cadastro.module.css";
 
 export default function Home() {
