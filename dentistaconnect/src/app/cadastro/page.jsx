@@ -1,4 +1,4 @@
-import styles from "@/app/styles/cadastro.module.css";
+import styles from "@/styles/cadastro.module.css";
 
 export default function Home() {
   return (
