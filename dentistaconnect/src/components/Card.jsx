@@ -1,17 +1,17 @@
-import styles from '@/app/styles/card.module.css';
+import React from 'react';
+import styles from '@/styles/card.module.css';
 
 const Card = ({ title, description, imageUrl }) => {
   return (
     <div className={styles.card}>
-      {imageUrl && (
-        <div className={styles.imageWrapper}>
-          <img src={imageUrl} alt={title} className={styles.image} />
-        </div>
-      )}
-      <div className={styles.content}>
-        <h2 className={styles.title}>{title}</h2>
-        <p className={styles.description}>{description}</p>
-      </div>
+      <img
+        className={styles.cardImg}
+        src={imageUrl || 'https://via.placeholder.com/150'} // Define uma imagem padrão
+        alt={title}
+      />
+      <h3 className={styles.cardTitle}>{title}</h3>
+      <p className={styles.cardText}>{description}</p>
+      <button className={styles.scheduleBtn}>Agendar</button>
     </div>
   );
 };
