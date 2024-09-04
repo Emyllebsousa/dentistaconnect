@@ -8,7 +8,7 @@ function CardP({ title, duration }) {
                 <p className="CardPduration">{duration}</p>
             </div>
             <button className={styles.buttonP}>
-                AGENDAR
+                Agendar
             </button>
         </div>
     );

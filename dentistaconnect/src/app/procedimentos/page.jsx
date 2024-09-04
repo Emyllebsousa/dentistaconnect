@@ -5,9 +5,13 @@ import styles from "@/styles/procedimento.module.css"
 export default function Procedimento(){
 
 return (
+
     <div className={styles.procedimento}>
+      <div className={styles.text}>
+        <h1><b>PROCEDIMENTO</b></h1>
+      </div>
   <div>
-    <div className="serch">
+    <div className="search">
     <Search/>
 
     </div>
