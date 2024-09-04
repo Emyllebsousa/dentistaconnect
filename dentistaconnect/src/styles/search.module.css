@@ -2,11 +2,9 @@
 .search input{
     width: 300px;
     height: 40px;
-    border-radius: 70px;
-    background-color: #365B6D;
-    opacity: 70px;
+    border-radius: 7px;
+    background-color: #7e99a9;
     color:white;
-    border-color: #365B6D ;
     margin-bottom: 20px;
     margin-left: 150px;
     
