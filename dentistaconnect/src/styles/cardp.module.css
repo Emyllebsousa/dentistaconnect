@@ -1,22 +1,25 @@
-.cardP{
+.cardP {
     background-color: #365B6D;
     padding: 20px;
-    border-radius: 50px;
-margin-bottom: 5px;
-display: flex;
-position: relative;
+    border-radius:5px;
+    margin-bottom: 5px;
+    display: flex;
+    position: relative;
+    width: 80%;
+    
+}
+.CardPinfo{
+    font-size: 18px;
 }
 
-.buttonP{
+.buttonP {
     color: #365B6D;
-    background:#fff;
-   position: absolute;
-   right: 0;
-   margin: 25px;
-border-radius: 8px;
-padding: 8px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 8px;
 }
-.cardPtitle{
-size:500px;
 
-}
