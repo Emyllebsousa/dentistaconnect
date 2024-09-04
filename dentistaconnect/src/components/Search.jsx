@@ -1,6 +1,8 @@
+import styles from "@/styles/search.module.css"
+
 export default function Search (){
     return(
-        <div className="searches">
+        <div className={styles.search}>
         <input type="text" placeholder="Search.."/>
         </div>
 
