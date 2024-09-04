@@ -1,23 +1,24 @@
 import React from 'react';
-import styles from '@/procedureslist.module.css';
+import styles from '@/styles/proceduresliste.module.css';
 
 const ProceduresList = ({ procedures }) => {
-  const pendingProcedures = procedures.filter(procedure => !procedure.completed);
-
   return (
-    <div className={styles.proceduresList}>
-      <h2>Procedimentos Pendentes</h2>
-      {pendingProcedures.length > 0 ? (
-        <ul className={styles.list}>
-          {pendingProcedures.map((procedure, index) => (
-            <li key={index} className={styles.item}>
-              {procedure.name}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>Todos os procedimentos estão concluídos!</p>
-      )}
+    <div className={styles.proceduresContainer}>
+      {procedures.map((procedure, index) => (
+        <div key={index} className={styles.procedureCard}>
+          <div className={styles.leftSection}>
+            <span className={styles.mainText}>{procedure.name}</span>
+            <span className={styles.subText}>Sorriso forte</span>
+          </div>
+          <div className={styles.rightSection}>
+            <span className={styles.dateText}>
+              <span>Mês <br /></span>
+              <span>DIA <br /></span>
+              <span>hora <br /></span>
+            </span>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

@@ -1,31 +1,45 @@
-.proceduresList {
-    background-color: #fff;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
+.proceduresContainer {
     width: 100%;
+    max-width: 600px;
     margin-bottom: 2rem;
+    margin-left: 2rem;
   }
   
-  .proceduresList h2 {
-    font-size: 1.5rem;
-    color: #2d3748;
+  .procedureCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e99a9;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
     margin-bottom: 1rem;
+    font-family: Arial, sans-serif;
   }
   
-  .list {
-    list-style: none;
-    padding: 0;
+  .leftSection {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
   }
   
-  .item {
-    font-size: 1rem;
-    color: #4a5568;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #e2e8f0;
+  .mainText {
+    font-size: 1.25rem;
+    font-weight: bold;
   }
   
-  .item:last-child {
-    border-bottom: none;
+  .subText {
+    font-size: 0.875rem;
+  }
+  
+  .rightSection {
+    flex-direction: column;
+    border-left: 2px solid #ffffff;
+    padding-left: 2.3rem;
+    display: flex;
+  }
+  
+  .dateText span {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
   }
