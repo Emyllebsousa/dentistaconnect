@@ -71,6 +71,9 @@ export default function Home() {
       </div>
 
       </div>
+      <div className={styles.buton}>
+          <button type="button" className={styles.agendaB}>Agendar</button>
+      </div>
     </div>
   );
 }
