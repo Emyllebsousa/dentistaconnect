@@ -1,14 +1,15 @@
-"use client"
+"use client"; // Garante que o componente é um Client Component
 
-import * as React from "react"
-import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons"
-import { DayPicker } from "react-day-picker"
+import * as React from "react";
+import { ChevronLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
+import { DayPicker } from "react-day-picker";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "@/components/ui/button";
 
-import { cn } from "@/lib/utils"
-import { buttonVariants } from "@/components/ui/button"
+// Propriedades para o componente Calendar
+export type CalendarProps = React.ComponentProps<typeof DayPicker>;
 
-export type CalendarProps = React.ComponentProps<typeof DayPicker>
-
+// Componente Calendar
 function Calendar({
   className,
   classNames,
@@ -65,8 +66,12 @@ function Calendar({
       }}
       {...props}
     />
-  )
+  );
 }
-Calendar.displayName = "Calendar"
 
-export { Calendar }
+Calendar.displayName = "Calendar";
+
+// Componente CalendarDemo que será importado na página Home
+export function CalendarDemo() {
+  return <Calendar />;
+}
