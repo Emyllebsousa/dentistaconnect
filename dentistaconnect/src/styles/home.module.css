@@ -6,11 +6,23 @@
     padding: 1rem;
   }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header img{
+  height: 70px;
+  width: 280px;
+  margin-right: 10px;
+}
+
   .search {
     width: 100%;
     max-width: 600px;
     margin-bottom: 1.5rem;
-    margin-left: -7rem;
+    margin-left: -7.2rem;
   }
   
   .cards {

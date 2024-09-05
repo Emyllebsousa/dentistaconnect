@@ -3,6 +3,8 @@ import styles from '@/styles/home.module.css';
 import Search from '@/components/Search';
 import Card from '@/components/Card';
 import ProceduresList from '@/components/ProceduresList';
+import HamburguerMenu from '@/components/HamburguerMenu';
+
 
 export default function Home() {
   const procedures = [
@@ -11,8 +13,13 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <div className={styles.header}>
       <div className={styles.search}>
         <Search />
+      </div>
+        <div className={styles.logo}>
+          <img src="/logoLateral.png" alt="logo" />
+          </div>
       </div>
 
       <div className={styles.procedures}>
