@@ -1,4 +1,31 @@
-.hrdisponivel{
+.hrdisponivel {
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: white;
+}
+.text{
+    margin-left: 231px;
+}
+.separar{
+display: flex;
+justify-content: space-around;
+}
+.calendar {
+    color: #0b2e40;
+    max-width: 3500px;
+}
 
-    background-color: red;
+.calendar h1 {
+    color: #0b2e40;
+    font-size: 30px;
+}
+
+.horarios {
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.horarios h1 {
+    margin-top: 10px;
+    font-size:30px;
 }
