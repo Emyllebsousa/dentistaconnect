@@ -5,6 +5,7 @@ import { useState } from "react";  // Importar o hook useState
 import dynamic from "next/dynamic";
 import CheckboxCard from "@/components/CheckboxCard";  // Importando o componente CheckboxCard
 import styles from "@/styles/horarios.module.css"
+import HorariosDisponiveis from "@/components/HorariosDisponiveis"
 // Importa o componente CalendarDemo de forma dinâmica com SSR desativado
 const CalendarDemo = dynamic(
   () => import("@/components/ui/calendar").then((mod) => mod.CalendarDemo),
@@ -25,7 +26,15 @@ export default function Home() {
     <div className={styles.hrdisponivel}>
    
       {/* Renderiza os checkboxes */}
+      <div className={styles.text}>
+      <h1><strong>Escolha um profissional</strong></h1>
+      </div>
+
+
+
+
       <div className={styles.chekbox} style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+
         <CheckboxCard
           label="Maria"
           imageSrc="https://storage.alboom.ninja/sites/1071/albuns/839102/00418_c1c65bb55736.jpg?t=1622227019"
@@ -45,11 +54,22 @@ export default function Home() {
           onChange={() => handleSelect("maycon")}  // Função para selecionar Maycon
         />
       </div>
+      <div className={styles.separar}>
+      <div className={styles.horarios}>
+      <h1 className="text-2xl font-bold mb-6">Selecione um Horário</h1>
+        {/* Chame o componente de horários disponíveis */}
+        <HorariosDisponiveis />
+
+      </div>
       <div className={styles.calendar}>
-      <h1>Escolha uma Data</h1>
+      <h1><strong>Escolha uma data</strong></h1>
 
       {/* Renderiza o componente CalendarDemo */}
       <CalendarDemo />
+
+    
+      </div>
+
       </div>
     </div>
   );
