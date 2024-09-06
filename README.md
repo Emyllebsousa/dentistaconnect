@@ -1,5 +1,5 @@
 
-![logo ](https://github.com/user-attachments/assets/988175db-d824-4e86-89e4-79408ff11406)
+![logo  (1)](https://github.com/user-attachments/assets/15a2f5b5-f9d9-4201-b046-935bd7cab345)
 
 # :hammer: Funcionalidades do projeto!
 
@@ -20,6 +20,7 @@
 - `JavaScript`
 - `Figma`
 - `Supabase`
+- `Prisma`
   
  # :technologist: Desenvolvedores
 
@@ -29,3 +30,5 @@
 
 # 🖥️: Prototipo
 https://www.figma.com/design/7Q1WzesE0OE2xmDPGGGLXq/Untitled?node-id=0-1&t=meJZRUU73x6w4YEp-0
+
+
