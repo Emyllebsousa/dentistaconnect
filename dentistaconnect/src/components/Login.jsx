@@ -51,7 +51,7 @@ const Login = () => {
 
         <Link href="/home">
           <button type="submit" className={styles.loginButton}>
-            Cadastre-se / Login
+           Login
           </button>
         </Link>
       </form>
