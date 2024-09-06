@@ -18,7 +18,7 @@ const Login = () => {
     <div className={styles.loginContainer}>
       <form onSubmit={handleSubmit} className={styles.loginForm}>
         <img
-          src="/logo.png"  
+          src="/logo.png"
           alt="Logo"
           className={styles.loginImage}
         />
@@ -49,7 +49,11 @@ const Login = () => {
 
         </div>
 
-        <button type="submit" className={styles.loginButton}>Login</button>
+        <Link href="/home">
+          <button type="submit" className={styles.loginButton}>
+            Cadastre-se / Login
+          </button>
+        </Link>
       </form>
     </div>
   );

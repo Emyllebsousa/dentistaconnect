@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'; // Adicione essa linha
 import styles from '@/styles/card.module.css';
 
 const Card = ({ title, description, imageUrl }) => {
@@ -11,7 +12,12 @@ const Card = ({ title, description, imageUrl }) => {
       />
       <h3 className={styles.cardTitle}>{title}</h3>
       <p className={styles.cardText}>{description}</p>
-      <button className={styles.scheduleBtn}>Agendar</button>
+
+      <Link href="/procedimentos">
+        <button className={styles.scheduleBtn}>
+          Agendar
+        </button>
+      </Link>
     </div>
   );
 };
