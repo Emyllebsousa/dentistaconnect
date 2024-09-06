@@ -6,10 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.logo}>
         <img src="/logo.png" alt="Logo" />
-        <div>
-            <h1>Dentist Connect</h1>
-            <p>Site de agendamento</p>
-        </div>
+       
     </div>
     <form>
         <div className={styles.formGroup}>

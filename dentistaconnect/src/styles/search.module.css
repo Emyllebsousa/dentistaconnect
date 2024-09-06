@@ -2,23 +2,28 @@
     width: 300px;
     height: 40px;
     border-radius: 7px;
-    background-color: #6b8e9f;
-    color: white;
+    background-color: #d9d9d9;
+    color: #365B6D;
     margin-bottom: 20px;
     margin-left: 150px;
 }
 
 .search input::placeholder {
-    color: #ffffff; /* Mudar a cor do placeholder */
-    opacity: 1; /* Deixar o texto do placeholder completamente opaco */
+    color: #365B6D; 
+    opacity: 1; 
 }
 
 .search button {
     color: #365B6D;
     background-color: #d9d9d9;
-    border-radius: 7px;
+    border-radius: 4px;
     margin-left: 8px;
     height: 40px;
     width: 70px;
     font-size: 15px;
 }
+.search button:hover {
+    color:#d9d9d9;
+    background-color: #365B6D;
+  }
+  
