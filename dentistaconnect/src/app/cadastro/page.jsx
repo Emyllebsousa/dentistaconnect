@@ -1,15 +1,12 @@
 import styles from "@/styles/cadastro.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className={styles.body}>
     <div className={styles.container}>
-      <div className={styles.logo}>
+    <div className={styles.logo}>
         <img src="/logo.png" alt="Logo" />
-        <div>
-            <h1>Dentist Connect</h1>
-            <p>Site de agendamento</p>
-        </div>
     </div>
     <form>
         <div className={styles.formGroup}>
@@ -47,7 +44,7 @@ export default function Home() {
             <option value="responsavel">Responsável</option>
         </select>
         </div>
-        <button type="submit" className={styles.btn}>Cadastrar</button>
+        <button type="submit" className={styles.btn}><Link href="/">Cadastrar</Link></button>
     </form>
     </div>
     </div>
