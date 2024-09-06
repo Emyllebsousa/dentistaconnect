@@ -1,13 +1,13 @@
 import React from 'react';
-import Link from 'next/link'; // Adicione essa linha
+import Link from 'next/link'; 
 import styles from '@/styles/card.module.css';
 
 const Card = ({ title, description, imageUrl }) => {
   return (
     <div className={styles.card}>
       <img
-        className={styles.cardImg}
-        src={imageUrl || 'https://via.placeholder.com/150'} // Define uma imagem padrão
+        className={styles.cardImg} 
+        src={imageUrl || 'https://via.placeholder.com/150'}
         alt={title}
       />
       <h3 className={styles.cardTitle}>{title}</h3>

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from '@/styles/CheckboxCard.module.css'; // Importando o CSS Module
+import styles from '@/styles/CheckboxCard.module.css';
 
 const CheckboxCard = ({ label, imageSrc, checked, onChange }) => {
   return (

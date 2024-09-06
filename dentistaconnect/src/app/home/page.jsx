@@ -4,8 +4,6 @@ import Search from '@/components/Search';
 import Card from '@/components/Card';
 import ProceduresList from '@/components/ProceduresList';
 import HamburguerMenu from '@/components/HamburguerMenu';
-
-
 export default function Home() {
   const procedures = [
     { name: 'Limpeza dentária', completed: false },
