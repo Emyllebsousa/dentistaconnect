@@ -28,9 +28,7 @@ const HorariosDisponiveis = () => {
           </button>
         ))}
       </div>
-      {horarioSelecionado && (
-        <p className="mt-4 text-lg">Horário selecionado: {horarioSelecionado}</p>
-      )}
+     
     </div>
   );
 };
